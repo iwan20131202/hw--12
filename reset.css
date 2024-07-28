@@ -1,0 +1,15 @@
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea,
+button,
+input {
+  border: 0;
+  outline: 0;
+}

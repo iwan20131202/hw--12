@@ -8,6 +8,7 @@
   refs.openModalBtn.addEventListener("click", openModal);
   refs.closeModalBtn.addEventListener("click", closeModal);
 
+  
   function openModal() {
     refs.modal.classList.remove("is-hidden");
     document.body.classList.add("no-scroll");
