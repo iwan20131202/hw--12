@@ -16,183 +16,280 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./modern-normalize.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./modern-normalize.css" />
     <link rel="stylesheet" href="./reset.css" />
     <title>Document</title>
-
   </head>
   <body>
-    <header class="header-1" >
-      <section class="container header"><a href=""><img class="qw" src="./WebStudio (1).png" alt="" /></a>
+    <header class="header-1">
+      <div class="containers">
+        <a href="" class="logo">Web <span class="studio-h">Studio</span> </a>
 
         <nav>
           <ul class="menu">
-              <li class="menu-item"> <a class="menu-link  transform  menu-link2" href="./index.html">Студія</a></li>
-              <li class="menu-item"> <a class="menu-link  transform  " href="./portfolio.html">Портфоліо</a></li>
-              <li class="menu-item"> <a class="menu-link  transform  " href="#">Контакти</a></li>
+            <li class="menu-item">
+              <a class="menu-link  menu-link2" href="./index.html"
+                >Студія</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link " href="./portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link " href="#">Контакти</a>
+            </li>
           </ul>
-      </nav>
-  
-        <div class="email-div "><div > <a href="" class="email transform  "><svg class="h11 transform   " ><use href="./icomon/header.svg#icon-emeil"></use></svg>info@devstudio.com</a></div>
-        <div class="email-div2" >
-          <a href=""  class="email  transform " ><svg class="h11 transform  " ><use href="./icomon/header.svg#icon-phone"></use></svg> +38 096 111 11 11</a></div>
-              </div></section>
-      
+        </nav>
+
+
+<div class="container-div">
+  <ul class="contacs-list">
+    <li class="contacs-item">
+       <a href="#" class="contacs-link">
+    <svg class="contacts-icon">
+      <use href="./icomon/header.svg#icon-emeil"></use>
+    </svg>
+    info@devstudio.com
+    
+  </a></li>
+    <li class="contacs-item"> 
+      <a href="#" class="contacs-link">
+    <svg  class="contacts-icon">
+      <use href="./icomon/header.svg#icon-phone"></use>
+    </svg>
+    +38 096 111 11 11
+    
+  </a></li>
+  </ul>
+</div>
+
+
+
+
+      </div>
     </header>
-    <main >
-      <section >
+    <main>
+      <section>
         <div class="main-text">
           <h1 class="h1">Ефективні рішення для вашого бізнесу</h1>
           <button class="main-button btn-open">Замовити послугу</button>
         </div>
         <div class="backdrop is-hidden">
-          <div class="modal ">
-          <a href="" class="modal-a" ><svg  class="btn-close modal-a-svg transform "><use href="./icomon/sprite3.svg.svg#icon-close"></use></svg></a>
+          <div class="modal">
+            
+            <a href="#"  class=" modal-a" >
+               <svg class="btn-close modal-a-svg transform">
+                <use href="./icomon/sprite3.svg.svg#icon-close"></use>
+              </svg>
+            </a>
+             
+           
             <p class="modal-p">Залиште свої дані, ми вам передзвонимо</p>
-           <form class="form-group" action="#">
-<label class="contact-form-lebel" for="name-input">Ім'я</label>
-<div class="contacs-form-wrapper transform  " >
-  <svg class="contact-form-icon">
-    <use href="./icomon/sprtie4.svg.svg#icon-name">
-  </use>
-</svg>
-  <input id="name-input" class="contact-form-input" type="text">
+            <form action="#" class="form-modal">
+              <div class="form-group">
+                <label class="contact-form-lebel" for="name-input">Ім'я</label>
+                <div class="contacs-form-wrapper transform">
+                  <svg class="contact-form-icon">
+                    <use href="./icomon/sprtie4.svg.svg#icon-name"></use>
+                  </svg>
+                  <input
+                    id="name-input"
+                    class="contact-form-input"
+                    type="text"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="contact-form-lebel" for="tel-input"
+                  >Телефон</label
+                >
+                <div class="contacs-form-wrapper transform">
+                  <svg class="contact-form-icon">
+                    <use href="./icomon/sprtie4.svg.svg#icon-tel2"></use>
+                  </svg>
+                  <input
+                    id="tel-input"
+                    class="contact-form-input"
+                    type="text"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="contact-form-lebel" for="gmail-input"
+                  >Пошта</label
+                >
+                <div class="contacs-form-wrapper transform">
+                  <svg class="contact-form-icon">
+                    <use href="./icomon/sprtie4.svg.svg#icon-email2"></use>
+                  </svg>
+                  <input
+                    id="gmail-input"
+                    class="contact-form-input"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="contact-form-lebel" for="textarea"
+                  >Коментар</label
+                >
+                <div class="contacs-form-wrapper-textarea transform">
+                  <textarea id="textarea" class="contact-form-textarea">
+Введіть текст </textarea
+                  >
+                </div>
+              </div>
+              <div class="div-checkbox">
+                <label for="checkbox" class="input-checkbox">
+                  <input type="checkbox" id="checkbox" />
+                </label>
+                <p class="p-modal-span">
+                  Погоджуюся з розсилкою та приймаю
+                  <a href="#" class="contract">Умови договору</a>
+                </p>
+              </div>
+<div class="div-button-modal">
+<button class="button-modal" type="submit">Відправити</button>
 </div>
-
-
-<label class="contact-form-lebel" for="tel-input">Телефон</label>
-<div class="contacs-form-wrapper transform  " >
-  <svg class="contact-form-icon">
-    <use href="./icomon/sprtie4.svg.svg#icon-tel2">
-  </use>
-</svg>
-  <input id="tel-input" class="contact-form-input" type="text">
-</div>
-
-<label class="contact-form-lebel" for="gmail-input">Пошта</label>
-<div class="contacs-form-wrapper transform  " >
-  <svg class="contact-form-icon">
-    <use href="./icomon/sprtie4.svg.svg#icon-email2">
-  </use>
-</svg>
-  <input id="gmail-input" class="contact-form-input" type="text">
-</div>
-
-<label class="contact-form-lebel" for="textarea">Коментар</label>
-<div class="contacs-form-wrapper-textarea transform  " >
-  <textarea id="textarea"  class="contact-form-textarea">Введіть текст </textarea>
-</div>
-
-
- </form>
-<div>
-  <div class="div-checkbox">
-    <label for="" class="input-checkbox">
-      <input type="checkbox" >
-    </label>  
-      <p class="p-modal-span">Погоджуюся з розсилкою та приймаю <span class="p-modal-span-sdfg">Умови договору</span></p>
-  </div>
-  <div class="div-modal">
-    <button class="button-modal" type="submit"> Відправити</button>
-  </div>
-         
-            </div>
+              
+            </form>
           </div>
         </div>
       </section>
-      <ul class="ul">
-        <li class="ul-li">
-          <svg><use href="./icomon/symbol-defs.svg#icon-1"></use></svg>
-          <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-          <p>
-            Ідейні міркування, і навіть початок повсякденної роботи з формування
-            позиції.
-          </p>
-        </li>
-        <li class="ul-li">
-          <svg><use href="./icomon/symbol-defs.svg#icon-2"></use></svg>
-          <h4>ПУНКТУАЛЬНІСТЬ</h4>
-          <p>
-            Завдання організації, особливо рамки і місце навчання кадрів тягне у
-            себе.
-          </p>
-        </li>
-        <li class="ul-li">
-          <svg><use href="./icomon/symbol-defs.svg#icon-3"></use></svg>
-          <h4>ПЛАНУВАННЯ</h4>
-          <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-        </li>
-        <li class="ul-li">
-          <svg><use href="./icomon/symbol-defs.svg#icon-4"></use></svg>
-          <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-          <p>
-            Значимість цих проблем настільки очевидна, що реалізація планових
-            завдань.
-          </p>
-        </li>
+      <section>
+        <ul class="ul">
+          <li class="ul-li">
+            <svg><use href="./icomon/symbol-defs.svg#icon-1"></use></svg>
+            <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
+            <p>
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li class="ul-li">
+            <svg><use href="./icomon/symbol-defs.svg#icon-2"></use></svg>
+            <h4>ПУНКТУАЛЬНІСТЬ</h4>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li class="ul-li">
+            <svg><use href="./icomon/symbol-defs.svg#icon-3"></use></svg>
+            <h4>ПЛАНУВАННЯ</h4>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li class="ul-li">
+            <svg><use href="./icomon/symbol-defs.svg#icon-4"></use></svg>
+            <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
 
-      </ul>
-      <section class=" container  section">
+      <section class="container section">
         <h2>Чим ми займаємося</h2>
         <ul class="section ul">
-          <li class="wo-bo-img"> <div class="div-h3" ><h3 class="h3" >Десктопні додатки</h3> </div><img src="./box 1 (1).jpg" alt="" /></li>
-          <li class="wo-bo-img"> <div class="div-h3" ><h3 class="h3" >Мобільні додатки</h3></div> <img src="./img (4).jpg" alt="" /></li>
-          <li class="wo-bo-img"> <div class="div-h3" ><h3 class="h3">Дизайнерські рішення</h3></div> <img src="./img (5).jpg" alt="" /></li>
+          <li class="wo-bo-img">
+            <div class="div-h3"><h3 class="h3">Десктопні додатки</h3></div>
+            <img src="./box.jpg" alt="" />
+          </li>
+          <li class="wo-bo-img">
+            <div class="div-h3"><h3 class="h3">Мобільні додатки</h3></div>
+            <img src="./tel.jpg" alt="" />
+          </li>
+          <li class="wo-bo-img">
+            <div class="div-h3"><h3 class="h3">Дизайнерські рішення</h3></div>
+            <img src="./gd.jpg" alt="" />
+          </li>
         </ul>
       </section>
       <section>
         <h2>Наша команда</h2>
         <ul class="section-ul">
           <li class="team-img">
-            <img class="jpg10"  src="./img (10).jpg" alt="" />
+            <img class="jpg10" src="./img (10).jpg" alt="" />
             <h4 class="qwr">Ігор Дем'яненко</h4>
             <p class="iop">Product Designer</p>
-            
-            <ul class="icoon-ul" >
-              <li >
-                <a class="list-icoon transform " href=""> <svg class="icoon transform">
-                  <use   href="./icomon/sprite.svg.svg#icon-instagram"></use>
-                </svg></a>
+
+            <ul class="icoon-ul">
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-instagram"
+                    ></use></svg>
+                </a>
               </li>
-              <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform">
-                  <use   href="./icomon/sprite.svg.svg#icon-twitter"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform " href=""> <svg class="icoon transform">
-                  <use   href="./icomon/sprite.svg.svg#icon-facebook"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform " href=""> <svg class="icoon transform">
-                  <use   href="./icomon/sprite.svg.svg#icon-linkedin"></use>
-                </svg></a>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use href="./icomon/sprite.svg.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-facebook"
+                    ></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-linkedin"
+                    ></use></svg>
+                </a>
               </li>
             </ul>
           </li>
           <li class="team-img">
-            <img class="jpg10" src="./img (2) (1).jpg" alt="" />
+            <img class="jpg10" src="./women.jpg" alt="" />
             <h4 class="asd">Ольга Рєпіна</h4>
             <p class="jkl">Frontend Developer</p>
-            <ul class="icoon-ul" >
-              <li >
-                <a class="list-icoon transform " href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-instagram"></use>
-                </svg></a>
+            <ul class="icoon-ul">
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-instagram"
+                    ></use></svg>
+                </a>
               </li>
-              
-              <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-twitter"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-facebook"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-linkedin"></use>
-                </svg></a>
+
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use href="./icomon/sprite.svg.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-facebook"
+                    ></use></svg>
+                  </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-linkedin"
+                    ></use></svg>
+                </a>
               </li>
             </ul>
           </li>
@@ -200,101 +297,179 @@
             <img class="jpg10" src="./img (11).jpg" alt="" />
             <h4 class="zxc">Микола Тарасов</h4>
             <p class="bnm">Marketing</p>
-            <ul class="icoon-ul" >
-              <li >
-                <a class="list-icoon transform " href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-instagram"></use>
-                </svg></a>
+           <ul class="icoon-ul">
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-instagram"
+                    ></use></svg>
+                </a>
               </li>
-              
-              <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-twitter"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-facebook"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-linkedin"></use>
-                </svg></a>
+
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use href="./icomon/sprite.svg.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-facebook"
+                    ></use></svg>
+                  </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-linkedin"
+                    ></use></svg>
+                </a>
               </li>
             </ul>
           </li>
           <li class="team-img">
-            <img class="jpg10" src="./img (3) (1).jpg" alt="" />
+            <img class="jpg10" src="./uld.jpg" alt="" />
             <h4 class="vbn">Михайло Єрмаков</h4>
             <p class="tgh">UI Designer</p>
-            <ul class="icoon-ul" >
-              <li >
-                <a class="list-icoon transform " href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-instagram"></use>
-                </svg></a>
+           <ul class="icoon-ul">
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-instagram"
+                    ></use></svg>
+                </a>
               </li>
-              
-              <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-twitter"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-facebook"></use>
-                </svg></a>
-              </li> <li >
-                <a class="list-icoon transform" href=""> <svg class="icoon transform  ">
-                  <use   href="./icomon/sprite.svg.svg#icon-linkedin"></use>
-                </svg></a>
+
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use href="./icomon/sprite.svg.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-facebook"
+                    ></use></svg>
+                  </a>
+              </li>
+              <li>
+                <a class="list-icoon transform" href="">
+                  <svg class="icoon transform">
+                    <use
+                      href="./icomon/sprite.svg.svg#icon-linkedin"
+                    ></use></svg>
+                </a>
               </li>
             </ul>
           </li>
         </ul>
       </section>
-      <section  >
+      <section>
         <h2>Постійні клієнти</h2>
         <ul class="ul-li-svg">
-          <li class="li-svg transform"> <svg class="gr transform"><use  href="./icomon/symbol-defs.svg#icon-gr1"></use></svg></li>
-          <li> <svg class="gr transform"><use  href="./icomon/symbol-defs.svg#icon-gr2"></use></svg></li>
-          <li> <svg class="gr transform"><use  href="./icomon/symbol-defs.svg#icon-gr3"></use></svg></li>
-          <li> <svg class="gr transform"><use  href="./icomon/symbol-defs.svg#icon-gr4"></use></svg></li>
-          <li> <svg class="gr transform"><use  href="./icomon/symbol-defs.svg#icon-gr5"></use></svg></li>
-          <li> <svg class="gr transform"><use  href="./icomon/symbol-defs.svg#icon-gr6"></use></svg></li>
+          <li class="li-svg transform">
+            <svg class="gr transform">
+              <use href="./icomon/symbol-defs.svg#icon-gr1"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="gr transform">
+              <use href="./icomon/symbol-defs.svg#icon-gr2"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="gr transform">
+              <use href="./icomon/symbol-defs.svg#icon-gr3"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="gr transform">
+              <use href="./icomon/symbol-defs.svg#icon-gr4"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="gr transform">
+              <use href="./icomon/symbol-defs.svg#icon-gr5"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="gr transform">
+              <use href="./icomon/symbol-defs.svg#icon-gr6"></use>
+            </svg>
+          </li>
         </ul>
-       
       </section>
     </main>
-    <footer class="footer  bg">
-      <section>
+    <footer class="footer bg">
+      <div class="container">
         <div class="pd">
           <div class="imgggg">
-            <a  href=""><img src="./WebStudio (2).png" alt="" /></a>
+            <a href=" #" class="logo2">Web <span class="studio">Studio</span></a>
             <p class="p-fotter">м. Київ, пр-т Лесі Українки, 26</p>
             <p>info@devstudio.com</p>
             <p>+38 096 111 11 11</p>
           </div>
-        
+
           <div class="po">
             <h3 class="footer-h3">приєднуйтесь</h3>
             <ul class="icoon-ulj">
-              <li ><a class="a-svg transform" href=""><svg class="svg-footer" ><use href="./icomon/sprite2.svg.svg#icon-instagram-2"></use></svg></a></li>
-              <li><a class="a-svg transform" href=""><svg class="svg-footer"><use href="./icomon/sprite2.svg.svg#icon-twiter2"></use></svg></a></li>
-              <li><a class="a-svg transform" href=""><svg class="svg-footer"><use href="./icomon/sprite2.svg.svg#icon-facebook2"></use></svg></a></li>
-              <li><a class="a-svg transform" href=""><svg class="svg-footer"><use href="./icomon/sprite2.svg.svg#icon-linkedin2"></use></svg></a></li>
+              <li>
+                <a class="a-svg transform" href=""
+                  ><svg class="svg-footer">
+                    <use
+                      href="./icomon/sprite2.svg.svg#icon-instagram-2"
+                    ></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="a-svg transform" href=""
+                  ><svg class="svg-footer">
+                    <use
+                      href="./icomon/sprite2.svg.svg#icon-twiter2"
+                    ></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="a-svg transform" href=""
+                  ><svg class="svg-footer">
+                    <use
+                      href="./icomon/sprite2.svg.svg#icon-facebook2"
+                    ></use></svg>
+                </a>
+              </li>
+              <li>
+                <a class="a-svg transform" href=""
+                  ><svg class="svg-footer">
+                    <use
+                      href="./icomon/sprite2.svg.svg#icon-linkedin2"
+                    ></use></svg>
+                </a>
+              </li>
             </ul>
           </div>
           <div class="div-footer">
             <h3 class="h3-foter">Підпишіться на розсилку</h3>
-            <form action="" class="form-svg">
-              <div class="div-modal"></div>
-              <input class="input-foter" placeholder="E-mail" type="email">
-                <button class="input-foter23" type="submit"> Підписатися <svg class="foter-svgggg"><use class="svg-use" href="./icomon/submit.svg#icon-submit"></use></svg></button>
-                  
-                
-              </div>
+            <form action="#" class="form-svg">
+              <input class="input-foter" placeholder="E-mail" type="email" />
+              <button class="input-foter23" type="submit">
+                Підписатися
+                <svg class="foter-svgggg">
+                  <use
+                    class="svg-use"
+                    href="./icomon/submit.svg#icon-submit"></use>
+                </svg>
+              </button>
             </form>
           </div>
         </div>
-      </section>
+      </div>
     </footer>
     <script src="./modal.js"></script>
   </body>
